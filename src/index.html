@@ -1,0 +1,39 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MTG Deck Builder</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/vendor/underscore.min.js"></script>
+    </head>
+    <body>
+        <div class="page-header">
+        	<h1>MTG Deck Builder</h1>
+        </div>
+        <div id="cardImage">
+        	<img src="http://mtgimage.com/card/cardback.jpg" alt="MtG Card Back" />
+        </div>
+        <div id="searchWrapper">
+        	<div class="input-group">
+			  	<input id="cardSearch" type="text" class="form-control">
+		  		<span class="input-group-addon">Card Name</span>
+			</div>
+			<ul id="results" class="list-group">
+			</ul>
+        </div>
+		
+		<script src="js/MTGDeckBuilder.js"></script>
+        <script src="js/main.js"></script>
+        <script type="text/javascript" src="http://mtgjson.com/json/AllCards.jsonp"></script>
+        
+</html>
